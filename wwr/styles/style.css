@@ -11,6 +11,9 @@ nav a{
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+hero-img{
+    text-align: center;
+}
 .button-box{
     text-align: center;
 }
@@ -24,6 +27,7 @@ main section{
 body{
     background-color: rgb(237, 241, 241);
     font-size: 22px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -73,8 +77,8 @@ footer .social img{
     padding-top: 15px;
 }
 .home-title{
-    color: coral;
-    font-family: 'Bebas Neue','Dancing Script', sans-serif;
+    color: rgb(43, 160, 196);
+    font-family: Courier, monospace, 'Pacifica', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
