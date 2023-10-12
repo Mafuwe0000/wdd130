@@ -90,7 +90,7 @@ h4{
 }
 .msg p{
     color: aquamarine;
-    font-size: 8em;
+    font-size: 1.5em;
     padding-bottom: 15px;
 }
 
@@ -115,4 +115,12 @@ h2{
 }
 main section img{
     box-sizing: border-box;
+}
+#hero-box{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0%;
+    border: 0;
+    max-width: 100%;
 }
