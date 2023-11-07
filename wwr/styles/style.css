@@ -187,6 +187,27 @@ main section img{
     opacity: .6;
     transform: scale(1.1);
 }
+h5, p{
+    color: black;
+}
+.FAQ{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-content: center;
+}
+#kid, #swim, #camp, #take{
+    margin: 90px;
+}
+
+#child, #safe,#boat,#bring{
+    margin: 90px;
+}
+
+
 
 
 
