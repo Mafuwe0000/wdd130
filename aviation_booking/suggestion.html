@@ -3,21 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AVIATION BOOKING *Home*</title>
+    <title>AVIATION BOOKING </title>
+    <link rel="stylesheet" href="styles/stylesuggest.css">
 </head>
 <body>
     <div id="content">
 
         <header>
             <a id="logo_link" href="index.html">
-                <img class="logo" src="images/Aviation Booking-logos.jpeg" alt="logo image">
+                <img class="logo" src="images/AviationBookinglogos.jpeg" alt="logoimage">
             </a>
-            <nav>
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
                 <a href="index.html" >Home </a>
-                <a href="checkin.html" > ONline Check-in </a>
+                <a href="checkin.html" > Online Check-in </a>
                 <a href="carhotel.html"> CAR & Hotel</a>
                 <a href="suggestion.html"> Suggestion Box</a>
-            </nav>
+              </div>
+            </div>
+            
+            <h2>Mafuwe Samo</h2>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+            
+            <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
             <style>
                 form {
             /* Center the form on the page */
@@ -99,14 +116,7 @@
         }
               </style> 
         </header>
-        <div class="picture"
-            <div class="plane">
-                <img id="" src="images/plane.jpg" alt="PLANE">
-            </div>
-            <section id="msg">
-                <h1> AVIATION BOOKING</h1>
-            </section>
-        </div>
+
         <main>
 
             <body>
@@ -147,29 +157,30 @@
                         document.body.classList.toggle('moveDown');
                     });
                 </script>
-              </body>
+
+             </body>
             
 
 
 
         </main>
-        <header>
-
-        </header>
-        <footer>
-            <p> AVIATION BOOKING &copy;20XX - MAFUWE SAMO</p>
-            <p><a href=""> Online Check-in</a></p>
-            <p><a href=""> Car & Hotel</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
+        <footer> 
+            <div class="Pop">
+                <p><a href="site-plan.html"> SITEPLAN </a></p>
+                <p><a href=""> About US</a></p>
+                <p><a href=""> PARTNERS</a></p>
+                <p><a href="">Social Responsability</a></p>
+                <p> AVIATION BOOKING &copy;20XX - MAFUWE SAMO</p>
+            </div>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
                 </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
+                <a href="https://whatsapp.com" target="_blank">
+                    <img src="images/rsz_whatsapp.jpg" alt="whatsapp icon">
                 </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/rsz_x.png" alt="X icon">
                 </a>
             </div>
         </footer>
