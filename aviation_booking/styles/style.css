@@ -95,14 +95,13 @@ h1{
 
 
 
-
+/* From Here is related to HOME PAGE*/
 .MAFUWE{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 50px;
 
 }
-
 
 #welcome{
     width: 100%;
@@ -165,6 +164,76 @@ h1{
 
 
 
+
+/*NOW STARTS PAGE 2 (CHECK IN)*/
+
+.Check{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 50px;
+
+}
+
+#bemvindo{
+    width: 100%;
+    text-align: justify;
+    margin: 100px;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 3em;
+    color: #291F1E ;
+
+}
+
+#terms{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 10%;
+    font-size: 90px; 
+    text-align: justify; 
+
+}
+#checked{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-top: 100px;
+    
+}
+
+.passenger{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    font-size: 6em;
+    
+}
+.bags{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    font-size: 6em;
+  
+
+}
+#carshot{
+    width: 0 auto;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 11;
+    font-size: 6em;
+    text-align: center;
+
+}
 
 
 footer{
