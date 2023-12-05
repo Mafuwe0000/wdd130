@@ -236,6 +236,224 @@ h1{
 }
 
 
+
+
+
+
+
+/*From here is the CSS of the third page: car and hotl*/
+
+#hotelis{
+    width: 100%;
+    text-align: justify;
+    margin: 100px;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 3em;
+    color: #291F1E ;
+
+}
+
+#brand{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 10%;
+    font-size: 90px; 
+    text-align: justify; 
+
+}
+#car{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-top: 100px;
+    width: 50%;
+    
+}
+
+#hei{
+    width: 100%;
+    text-align: justify;
+    justify-content: space-between;
+    margin: 100px;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-size: 6em;
+    color: #291F1E ;
+
+}
+#HOST{
+    width: 100%;
+    text-align: justify;
+    margin: 100px;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    font-size: 3em;
+    color: #291F1E ;
+
+}
+#remember{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    font-size: 6em;
+    margin: 200px;
+    text-align: justify;
+    
+}
+#Available{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    font-size: 6em;
+    margin: 200px;
+  
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+  }
+
+
+#conditions{
+    width: 100%;
+    text-align: justify;
+    margin: 100px;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    font-size: 4em;
+    color: #291F1E ;
+
+}
+
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
 footer{
     background-color: #FFD60A;
     display: flex;
