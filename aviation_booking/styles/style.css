@@ -225,7 +225,7 @@ h1{
 
 }
 #carshot{
-    width: 0 auto;
+    width: 100%;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 7;
